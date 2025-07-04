@@ -30,5 +30,5 @@ El archivo Energy_Consumption.ppk2 contiene los datos de consumos leídos por el
 
 ## Acceso a los datos de influxdb
 
-El código de python Obtain_data_from_influx_in_pytho.py es un ejemplo de acceso a los datos de influxdb para mostrar un histograma de los datos de distancia capturados en los últimos 2 días. 
+El código de python Obtain_data_from_influx_in_python.py es un ejemplo de acceso a los datos de influxdb para mostrar un histograma de los datos de distancia capturados en los últimos 2 días. 
 
