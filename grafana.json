@@ -236,7 +236,7 @@
           "hide": false,
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT \"distance_cm\" \nFROM \"distance_readings\" \nWHERE $timeFilter ",
+          "query": "SELECT \"distance_cm\"\nFROM \"distance_readings\" \nWHERE $timeFilter \n",
           "rawQuery": true,
           "refId": "B",
           "resultFormat": "time_series",
@@ -645,7 +645,7 @@
           "hide": false,
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT \"humidity_pct\" \nFROM \"humidity_readings\" \nWHERE $timeFilter ",
+          "query": "SELECT \"humidity_pct\"\nFROM \"humidity_readings\" \nWHERE $timeFilter ",
           "rawQuery": true,
           "refId": "B",
           "resultFormat": "time_series",
@@ -684,5 +684,5 @@
   "timezone": "browser",
   "title": "batea",
   "uid": "547e74ff-9fda-4df0-af78-a19c243adb7d",
-  "version": 9
+  "version": 10
 }
